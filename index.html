@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>Stock Trading</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<div class="title">
+		<i class="material-icons">analytics</i>
+		<h1 class="titleText">Stocks Information Center</h1>
+	</div>
+	<div class="searchForm">
+		<input id="name" type="text" style="text-transform:uppercase" placeholder="company name"/>
+		<button id="myBtn" class="button button1">Know the stock price</button>
+	</div>
+	<div class="companyProfile">
+		<h2 id="CompanyName"></h2>
+		<h2 id="StockPrice"></h2>
+	</div>
+	<div class="info">
+		<h4>Representing 15-minutes of historical stock price</h4>
+	</div>
+	<div class="tableClass">
+		<div class="stock-name"></div>
+	</div>
+	<table id="tableStock">
+	</table>
+</body>
+<script src="stock.js"></script>
+</html>
